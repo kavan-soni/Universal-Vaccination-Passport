@@ -26,3 +26,19 @@
 **Persona:** Amazon product Buyers
 
 **link to data set:** https://www.kaggle.com/yasserh/amazon-product-reviews-dataset
+
+
+## PROJECT IDEA 3:
+**Title** : Real time movie review predictions pattern
+
+**Introduction to the Problem Statement:** Movie reviews are important because they can be used not only as a marketing tool by film production studios, but also as a predictor as to how a film will perform financially. Here we take user review's posted on movie website  using kafka topic as input and returns a prediction of sentiment that has five values (very negtive, negative , neutral , positive and very positive ) using this data film productions can increase or decrease the number of theaters.
+
+**Abstract:**  Take  movie reviews input from kafka topic (which are taken from movie websites) and to predict sentiment of reviews and post to an outgoing topic
+
+**Aproach:** 
+Use an http service to predict the sentiment of each review and publish sentiments to an outgoing topic.The http service takes text content as input and returns a sentiment that has five values (very negtive, negative , neutral , positive and very positive )
+
+**Persona:** Movie Reviewers
+
+**link to data set:** https://www.kaggle.com/vipulgandhi/movie-review-dataset
+
