@@ -9,11 +9,11 @@
 **Abstract**: We will consume data from different home buying applications apply real time transformations using Kafka Streams. Use housing dataset and predict prices of homes in real time. Build a house predictor application that gives the price of house in real time.
 
 **Approach:** : 
-1.Produce housing data into Kafka topic. Data can be from SQL or No SQL sources.
-2.Apply real time trasformation on the data using Kafka Streams.
-3.Consume this data and train an ML model.
-4.Predict housing prices by querying the ML model.
-5.Build a UI to select the houses and display the predicted price.
+1. Produce housing data into Kafka topic. Data can be from SQL or No SQL sources.
+2. Apply real time trasformation on the data using Kafka Streams.
+3. Consume this data and train an ML model.
+4. Predict housing prices by querying the ML model.
+5. Build a UI to select the houses and display the predicted price.
 
 **Persona:** Home Buyers
 
