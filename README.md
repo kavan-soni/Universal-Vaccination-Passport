@@ -6,7 +6,14 @@
 
 **Introduction to the Problem Statement**: A number of factors influence home buyer's decision. With using the given data set of 79 explanetary variables describing every aspect of residential homes, predict final price of any house.and build a real time data pipline to predict prices real time.
 
-**Abstract**: We will consume data from different home buying applications apply real time transformations using Kafka Streames. Use housing dataset and predict prices of homes in real time. Build a house predictor application that gives the price of house in real time.
+**Abstract**: We will consume data from different home buying applications apply real time transformations using Kafka Streams. Use housing dataset and predict prices of homes in real time. Build a house predictor application that gives the price of house in real time.
+
+**Approach:** : 
+1.Produce housing data into Kafka topic. Data can be from SQL or No SQL sources.
+2.Apply real time trasformation on the data using Kafka Streams.
+3.Consume this data and train an ML model.
+4.Predict housing prices by querying the ML model.
+5.Build a UI to select the houses and display the predicted price.
 
 **Persona:** Home Buyers
 
@@ -21,7 +28,7 @@
 
 **Abstract:** Use Amazon product review dataset, build a kafka based application chatbot and predict the buy percentage of a product / suggest a similar good product.
 
-**Aproach:** build a machine learning model to predict the the buy percentage and the best similar product and create a data pipeline using kafka, a chat bot application where buyers can get details like product buy percentage and similar best products.
+**Approach:** build a machine learning model to predict the the buy percentage and the best similar product and create a data pipeline using kafka, a chat bot application where buyers can get details like product buy percentage and similar best products.
 
 **Persona:** Amazon product Buyers
 
