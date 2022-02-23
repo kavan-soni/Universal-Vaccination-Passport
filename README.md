@@ -15,5 +15,14 @@
 
 
 ## PROJECT IDEA 2:
-Use Amazon product review dataset, build a kafka based application chatbot and predict the buy percentage of a product / suggest a similar good application.
-link to data set: https://www.kaggle.com/yasserh/amazon-product-reviews-dataset
+**Title** : Chat Bot to predict Amazon produt buy percentage.
+
+**Introduction to the Problem Statement:** a number of factors influence product buyers such as reviews, ratings, price, company etc. with the given dataset, predict buy percentage of any product given by user, or suggest best related product in its similarity.
+
+**Abstract:** Use Amazon product review dataset, build a kafka based application chatbot and predict the buy percentage of a product / suggest a similar good product.
+
+**Aproach:** build a machine learning model to predict the the buy percentage and the best similar product and create a data pipeline using kafka, a chat bot application where buyers can get details like product buy percentage and similar best products.
+
+**Persona:** Amazon product Buyers
+
+**link to data set:** https://www.kaggle.com/yasserh/amazon-product-reviews-dataset
