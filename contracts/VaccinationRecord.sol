@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 pragma experimental ABIEncoderV2;
 
-contract VaccinationRecordContract {
+contract VaccinationRecord {
   uint public recordCount = 0;
 
   struct VaccinationRecord {
