@@ -1,4 +1,4 @@
-# Universal Vaccination Passport
+# Universal Vaccination Passport using Blockchain
 
 ## Title: Universal Vaccination Passport
 
