@@ -5,7 +5,7 @@ contract VaccinationRecord {
   uint public recordCount = 0;
 
   struct VaccinationRecord {
-    uint id;
+    uint256 id;
     string name; 
     string dateOfFirstDose;
     string dateOfSecondDose;
@@ -13,10 +13,10 @@ contract VaccinationRecord {
     string content;
   }
 
-  mapping(uint => VaccinationRecord) public vaccinationRecordMappings;
+  mapping(uint256 => VaccinationRecord) public vaccinationRecordMappings;
 
   event RecordCreated(
-    uint id,
+    uint256 id,
     string name, 
     string dateOfFirstDose,
     string dateOfSecondDose,
@@ -25,7 +25,7 @@ contract VaccinationRecord {
   );
 
   event RecordFetched(
-    uint id,
+    uint256 id,
     string name, 
     string dateOfFirstDose,
     string dateOfSecondDose,
@@ -37,7 +37,7 @@ contract VaccinationRecord {
     createRecord(1, "name", "dateOfFirstDose", "dateOfSecondDose", "typeOfVaccine", "content");
   }
 
-  function createRecord(uint id, string memory name, string memory dateOfFirstDose, string memory dateOfSecondDose, string memory typeOfVaccine, string memory content) public {
+  function createRecord(uint256 id, string memory name, string memory dateOfFirstDose, string memory dateOfSecondDose, string memory typeOfVaccine, string memory content) public {
     recordCount ++;
     vaccinationRecordMappings[id] = VaccinationRecord(id, name, dateOfFirstDose, dateOfSecondDose, typeOfVaccine, content);
     emit RecordCreated(id, name, dateOfFirstDose, dateOfSecondDose, typeOfVaccine, content);
@@ -45,7 +45,7 @@ contract VaccinationRecord {
 
 
 
-  function getRecord(uint id) public returns(VaccinationRecord memory record){
+  function getRecord(uint256 id) public returns(VaccinationRecord memory record){
     VaccinationRecord memory fetchedRecord = vaccinationRecordMappings[id];
 
     if (fetchedRecord.id > 0) {
