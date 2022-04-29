@@ -1,7 +1,7 @@
 
 import './App.css';
 import Appbar from './components/Appbar'
-import Student from './components/Student'
+import Vaccination from './components/Vaccination'
 import backimage from "./images/back.jpg";
 
 
@@ -22,7 +22,7 @@ function App() {
 
     <div className="App">
     <Appbar/>
-    <Student/>
+    <Vaccination/>
    
     </div>
     </div>
