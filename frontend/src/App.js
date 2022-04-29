@@ -4,13 +4,14 @@ import Appbar from './components/Appbar'
 import Student from './components/Student'
 import backimage from "./images/back.jpg";
 
+
 function App() {
   return (
 
     <div
     class="bg_image"
     style={{
-      backgroundImage: 'url('+backlimage+')',
+      backgroundImage: 'url('+backimage+')',
       backgroundSize: "cover",
       height: "280vh",
       color: "#f5f5f5",
