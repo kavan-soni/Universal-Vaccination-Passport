@@ -13,7 +13,7 @@ function App() {
     style={{
       backgroundImage: 'url('+backimage+')',
       backgroundSize: "cover",
-      height: "200vh",
+      height: "150vh",
       color: "#f5f5f5",
       
       backgroundRepeat: 'no-repeat'
