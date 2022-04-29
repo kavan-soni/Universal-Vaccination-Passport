@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import { Container, Paper, Button } from '@material-ui/core';
 
+const apiUrl = "https://aeec-2601-646-9881-b40-80ce-aa9-35e8-a766.ngrok.io/vaccination/record/"
+// Change this to ngrok url
+
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
@@ -21,7 +24,7 @@ export default function Student() {
   const handleClick = (e) => {
     e.preventDefault()
     console.log(unique_id)
-    fetch("http://localhost:3000/vaccination/record/" + unique_id)
+    fetch(apiUrl + unique_id)
       .then((res) => res.json())
       .then((result) => {
         console.log("Vaccination Record is set")
