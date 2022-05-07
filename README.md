@@ -2,6 +2,10 @@
 
 ## Title: Universal Vaccination Passport
 
+**Landing Page URL**  
+
+https://shubhadasanjaypait.wixsite.com/my-site-5
+
 **Problem Statment:**
 In the Covid-19 pandemic, almost every country in the world conducted campaigns worldwide to vaccinate its population. As a result, many countries have been asking for proof of vaccination for travel. However, there is no single reliable source of health records available. Thus, It isn't easy to build a vaccine passport accepted everywhere. We intend to solve this problem by leveraging the blockchain's distributed ledger technology (DLT).
 
@@ -34,6 +38,17 @@ Lambda Function scales with the rate of load.
 4. For the Demo, we are using Ganache and rock to simulate one node blockchain for testing.
 
 ![ganache_record_fetched](https://user-images.githubusercontent.com/99461999/167273858-d5e583ad-7a4b-4512-8128-19e7d0adfb6e.png)
+
+
+**Tools used in the project:**
+
+1. Frontend : Reactjs
+2. Backend Api : Nodejs 
+3. Blockchain Enviroment :  Ganach ( to create and deploy smart contracts on one node blockchain ) and Truffle(manage and compile smart contract)
+4. Lambda : Consume vaccination events.
+
+
+
 
 
 6. Our Vaccination Portal will use the same API layer to generate a Vaccination Passport with a QR code.
