@@ -11,22 +11,37 @@ Healthcare facilities process millions of patients every day all around the worl
 The benefit of using DLT (Distributed Ledger Technology) is the elimination of middlemen in maintaining a global ledger of medical records. Also, we shall have total automation in building vaccine passports with no one authority having an absolute monopoly over the records. 
 
 **Use Case-business value:** 
-(1) Our Portal generates vaccination passports for anyone in the world.
-(2)The portal is built on blockchain where tamper-proof vaccination records are stored and maintained. 
-(3)It can be used for verifications anywhere in the world.
+
+1. Our Portal generates vaccination passports for anyone in the world.
+2. The portal is built on blockchain where tamper-proof vaccination records are stored and maintained. 
+3. It can be used for verifications anywhere in the world.
 
 ​**Persona:**
-(1) Governments All Over the World
-(2) WHO (World Health Organizations)
-(3) Private Medical Facilities 
+
+1. Governments All Over the World
+2. WHO (World Health Organizations)
+3. Private Medical Facilities 
 
 **Architecture Diagram:**
 
-(1)Client-Side Apps will stream vaccination records to the Lambda Function in the AWS cloud.
+![Untitled presentation](https://user-images.githubusercontent.com/99461999/167273804-f5038713-52cf-4675-af9b-661420b507b4.jpg)
+
+
+1. Client-Side Apps will stream vaccination records to the Lambda Function in the AWS cloud.
 Lambda Function scales with the rate of load.
-(2)Lambda Function will hit our API layer which has GET and POST APIs.
-(3)The APIs will call Smart Contracts and write transactions to the blockchain in the cloud. 
-(4)For the Demo, we are using Ganache and rock to simulate one node blockchain for testing.
-(5)Our Vaccination Portal will use the same API layer to generate a Vaccination Passport with a QR code.
+2. Lambda Function will hit our API layer which has GET and POST APIs.
+3. The APIs will call Smart Contracts and write transactions to the blockchain in the cloud. 
+4. For the Demo, we are using Ganache and rock to simulate one node blockchain for testing.
+
+![ganache_record_fetched](https://user-images.githubusercontent.com/99461999/167273858-d5e583ad-7a4b-4512-8128-19e7d0adfb6e.png)
+
+
+6. Our Vaccination Portal will use the same API layer to generate a Vaccination Passport with a QR code.
+
+![EnterYourGovernmentId](https://user-images.githubusercontent.com/99461999/167273882-94d4b0c5-a42d-42a9-bc73-fa6de3d3950a.png)
+
+![YourVaccinationPassport](https://user-images.githubusercontent.com/99461999/167273906-88490d21-02af-4aa9-b7f9-57aa3c0d128b.png)
+
+
 
 
