@@ -39,6 +39,11 @@ Lambda Function scales with the rate of load.
 
 ![ganache_record_fetched](https://user-images.githubusercontent.com/99461999/167273858-d5e583ad-7a4b-4512-8128-19e7d0adfb6e.png)
 
+5. Our Vaccination Portal will use the same API layer to generate a Vaccination Passport with a QR code.
+
+![EnterYourGovernmentId](https://user-images.githubusercontent.com/99461999/167273882-94d4b0c5-a42d-42a9-bc73-fa6de3d3950a.png)
+
+![YourVaccinationPassport](https://user-images.githubusercontent.com/99461999/167273906-88490d21-02af-4aa9-b7f9-57aa3c0d128b.png)
 
 **Tools used in the project:**
 
@@ -48,14 +53,6 @@ Lambda Function scales with the rate of load.
 4. Lambda : Consume vaccination events.
 
 
-
-
-
-6. Our Vaccination Portal will use the same API layer to generate a Vaccination Passport with a QR code.
-
-![EnterYourGovernmentId](https://user-images.githubusercontent.com/99461999/167273882-94d4b0c5-a42d-42a9-bc73-fa6de3d3950a.png)
-
-![YourVaccinationPassport](https://user-images.githubusercontent.com/99461999/167273906-88490d21-02af-4aa9-b7f9-57aa3c0d128b.png)
 
 
 
