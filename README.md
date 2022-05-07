@@ -2,9 +2,7 @@
 
 ## Title: Universal Vaccination Passport
 
-![Project-Idea](https://user-images.githubusercontent.com/99461999/156113422-a81741d1-13cf-4acf-becf-6c31f6194969.jpg)
-
-**Introduction:**
+**Problem Statment:**
 In the Covid-19 pandemic, almost every country in the world conducted campaigns worldwide to vaccinate its population. As a result, many countries have been asking for proof of vaccination for travel. However, there is no single reliable source of health records available. Thus, It isn't easy to build a vaccine passport accepted everywhere. We intend to solve this problem by leveraging the blockchain's distributed ledger technology (DLT).
 
 **Abstract:** 
@@ -12,15 +10,23 @@ Healthcare facilities process millions of patients every day all around the worl
 
 The benefit of using DLT (Distributed Ledger Technology) is the elimination of middlemen in maintaining a global ledger of medical records. Also, we shall have total automation in building vaccine passports with no one authority having an absolute monopoly over the records. 
 
-**Approach:** 
-(1) Build Apache Kafka Cluster to process millions of health records from healthcare facilites around the world. 
-(2) Leverage Kafka Streams to interprete and transform the data in different formats. 
-(3) Build a scalable backend (could be serverless?) to write/append to the blockchain of health records maintained in cloud. (We could leverage IBM cloud) 
-(4) Write smart contracts to enforce integrity checks on the health records.
-(5) Build a minimalist front-end to display Vaccine passport. 
+**Use Case-business value:** 
+(1) Our Portal generates vaccination passports for anyone in the world.
+(2)The portal is built on blockchain where tamper-proof vaccination records are stored and maintained. 
+(3)It can be used for verifications anywhere in the world.
 
-**Reference:**
-IBM Blockchain Renaltu Usecase https://www.ibm.com/case-studies/renault/
-Microsoft Blog on fighting piracy with Blockchain https://markets.businessinsider.com/news/currencies/microsoft-msft-ethereum-blockchain-fight-piracy-digital-tech-public-ledger-2021-8
+​**Persona:**
+(1) Governments All Over the World
+(2) WHO (World Health Organizations)
+(3) Private Medical Facilities 
+
+**Architecture Diagram:**
+
+(1)Client-Side Apps will stream vaccination records to the Lambda Function in the AWS cloud.
+Lambda Function scales with the rate of load.
+(2)Lambda Function will hit our API layer which has GET and POST APIs.
+(3)The APIs will call Smart Contracts and write transactions to the blockchain in the cloud. 
+(4)For the Demo, we are using Ganache and rock to simulate one node blockchain for testing.
+(5)Our Vaccination Portal will use the same API layer to generate a Vaccination Passport with a QR code.
 
 
