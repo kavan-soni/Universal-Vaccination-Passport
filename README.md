@@ -57,7 +57,7 @@ Lambda Function scales with the rate of load.
 
 1. Frontend : Reactjs
 2. Backend Api : Nodejs 
-3. Blockchain Enviroment :  Ganach ( to create and deploy smart contracts on one node blockchain ) and Truffle(manage and compile smart contract)
+3. Blockchain Enviroment :  Ganache ( to create and deploy smart contracts on one node blockchain ) and Truffle(manage and compile smart contract)
 4. Lambda : Consume vaccination events.
 
 
