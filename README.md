@@ -4,7 +4,11 @@
 
 **Landing Page URL**  
 
-https://shubhadasanjaypait.wixsite.com/my-site-5
+https://shubhadasanjaypait.wixsite.com/my-site-5  
+
+**Project Report**
+
+https://docs.google.com/document/d/1rXuTM82lZnZFbb0MjY-njIQSNTi5qWxF9ajmbkyuK4M/edit#
 
 **Problem Statment:**
 In the Covid-19 pandemic, almost every country in the world conducted campaigns worldwide to vaccinate its population. As a result, many countries have been asking for proof of vaccination for travel. However, there is no single reliable source of health records available. Thus, It isn't easy to build a vaccine passport accepted everywhere. We intend to solve this problem by leveraging the blockchain's distributed ledger technology (DLT).
