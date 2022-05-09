@@ -49,6 +49,10 @@ Lambda Function scales with the rate of load.
 
 ![YourVaccinationPassport](https://user-images.githubusercontent.com/99461999/167273906-88490d21-02af-4aa9-b7f9-57aa3c0d128b.png)
 
+**Deployment Diagram :**
+
+![Untitled presentation (7)](https://user-images.githubusercontent.com/99461999/167480687-d34e8f19-6c9f-4a86-b446-58eee85c5fde.png)
+
 **Tools used in the project:**
 
 1. Frontend : Reactjs
