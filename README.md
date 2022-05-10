@@ -64,8 +64,3 @@ Lambda Function scales with the rate of load.
 3. Blockchain Enviroment :  Ganache ( to create and deploy smart contracts on one node blockchain ) and Truffle(manage and compile smart contract)
 4. Lambda : Consume vaccination events.
 
-
-
-
-
-
