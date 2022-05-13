@@ -64,3 +64,15 @@ Lambda Function scales with the rate of load.
 3. Blockchain Enviroment :  Ganache ( to create and deploy smart contracts on one node blockchain ) and Truffle(manage and compile smart contract)
 4. Lambda : Consume vaccination events.
 
+## Steps to run the program
+
+1. Go to the landing page (home page) of the application:
+https://shubhadasanjaypait.wixsite.com/my-site-5 
+2. Go to the Services tab and click on the view button, it will redirect you to the vaccination Portal.
+https://shubhadasanjaypait.wixsite.com/my-site-5/services
+3. To verify the vaccination record,
+You can verify it via our sample record
+Type Government ID as follows
+12345
+123456789
+6692386654 
