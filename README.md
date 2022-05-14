@@ -12,6 +12,7 @@ https://shubhadasanjaypait.wixsite.com/my-site-5
 
 **Project Report**
 
+https://github.com/sjsucmpe272SP22/Universal-Vaccination-Passport/blob/main/Universal%20Vaccination%20Passport%20Using%20Blockchain-Team24.pdf
 https://docs.google.com/document/d/1rXuTM82lZnZFbb0MjY-njIQSNTi5qWxF9ajmbkyuK4M/edit#
 
 ## Problem Statment:
