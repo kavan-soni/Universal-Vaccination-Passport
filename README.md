@@ -73,6 +73,7 @@ https://shubhadasanjaypait.wixsite.com/my-site-5/services
 3. To verify the vaccination record,
 You can verify it via our sample record
 Type Government ID as follows
-1. 12345
-2. 123456789
-3. 6692386654 
+    1. 12345
+    2. 123456789
+    3. 6692386654 
+4. Verify it via Scan the QR code.
