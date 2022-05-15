@@ -11,7 +11,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import QRCode from "qrcode.react";
 
-const apiUrl = "https://eb6b-2601-646-9881-b40-5e39-635a-71d4-5241.ngrok.io/vaccination/record/"
+const apiUrl = "https://093c-2601-646-9881-b40-e3da-90a0-9504-a557.ngrok.io/vaccination/record/"
 // Change this to ngrok url
 // const apiUrl = "https://d03a-2607-f380-828-fb00-00-8db9.ngrok.io/vaccination/record/"
 //
