@@ -1,11 +1,5 @@
 # Title: Universal Vaccination Passport 
 
-**Team Members:**
-1. Shubhada Sanjay Paithankar 
-2. Sri Ram V N V
-3. Arun Sarvik Mallampali
-4. Nikhil Konduru
-
 **Landing Page URL**  
 
 https://shubhadasanjaypait.wixsite.com/my-site-5  
